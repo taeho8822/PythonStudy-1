@@ -3,7 +3,7 @@
 * * *
 1. 버추얼박스 다운로드  
     1-1 구글 버추얼박스 검색  
-    https://www.virtualbox.org/wiki/Downloads  
+    https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
     1-2  
         windows hosts 클릭 다운로드  ~~~~
   
