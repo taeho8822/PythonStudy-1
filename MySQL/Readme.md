@@ -35,28 +35,11 @@
 6. Cmder.exe 실행  
     unblock continue 클릭  
 
-7. vagrant 서버 폴더 만들기  
-    c:\Python작업폴더\vagrant\server1 <- 탐색기 우클릭 새폴더 만들어도된다.  
-  
-    [[ cmder 로 폴더만들기 ]]  
-    cd  c:\Python작업폴더\  
-    mkdir vagrant  
-    cd vagrant    
-    mkdir server1  
-    cd server1  
-
-8. vagrant cloud 접속  (Vagrantfile 이 존재한다면 생략)
-    받고싶은 이미지 클릭 또는 검색  
-    new 탭  
-    vagrant init 이미지명  <- Vagrantfile 생성
-9. vagrant up  <- Vagrantfile 작성된 기준으로 이미지 다운로드 및 설치  
-  
-9. vagrant 리눅스 접속  
-    vagrant ssh  
-
-10. 하이디SQL 설치
+7. 하이디SQL 설치
     https://www.heidisql.com/  
 
+8. Vagrantfile 다운받아 
+    vagrant up 해준다.
  * * *
 
 ### MySQL 예제 스키마
