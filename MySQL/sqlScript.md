@@ -1150,11 +1150,3 @@ drop table dept4;
 drop table simple;
 ```
 
-
-
-
-
-
-
-
-
