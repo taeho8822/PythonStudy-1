@@ -1035,9 +1035,9 @@ ENGINE=InnoDB
 ;
 (primary : null,중복 허용하지 않음. ID 값을 입력할 수 있는 키)
 
-insert into member values(1,'김구리','노량진');
-insert into member values(2,'홍길동','우리집');
-insert into member values(3,'나야나','동대문');
+insert into member values(1,'피카츄','신림');
+insert into member values(2,'라이츄','신촌');
+insert into member values(3,'파이리','동대문');
 ```
 
 
