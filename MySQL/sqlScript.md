@@ -8,7 +8,7 @@ mysql -u root
 ```
 - 외부 접속 권한 주기
 ```
-- grant all privileges on *.* to root@"%" identified by 'qwe123' with grant option;
+grant all privileges on *.* to root@"%" identified by 'qwe123' with grant option;
 ```
 - Database 생성
 ```
