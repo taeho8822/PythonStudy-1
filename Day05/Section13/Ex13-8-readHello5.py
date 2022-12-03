@@ -1,3 +1,4 @@
+
 file = open('hello.txt', 'rt', encoding='UTF-8')
 
 line_list = file.readlines()

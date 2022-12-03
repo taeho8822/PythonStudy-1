@@ -7,7 +7,7 @@ CSV(comma-separated values)
 '''
 student_list = []
 with open('학생명단.csv', 'rt', encoding='UTF-8') as file:
-    file.readline()
+    file.readline()     # 첫줄 제거
     while True:
         line = file.readline()
         if not line:

@@ -17,6 +17,12 @@ print(time.ctime(time.time()))
 # 날짜 데이터를 문자열로 반환
 print(time.strftime('%Y-%m-%d %H:%M:%S'))
 
+print('%Y년 %m월 %d일'.encode('unicode-escape'))
+print('%Y년 %m월 %d일'.encode('unicode-escape').decode())
+print(time.strftime(
+        '%Y년 %m월 %d일'.encode('unicode-escape').decode()
+    ))
+
 print(
     time.strftime(
         '%Y년 %m월 %d일'.encode('unicode-escape').decode()

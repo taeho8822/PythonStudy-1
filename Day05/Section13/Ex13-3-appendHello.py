@@ -1,3 +1,7 @@
+'''
+a (append mode) : 추가 모드
+'''
+
 file = open('hello.txt', 'at', encoding='UTF-8')
 
 file.write('Hello.\n')
