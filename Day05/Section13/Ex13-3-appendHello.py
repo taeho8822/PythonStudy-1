@@ -1,4 +1,4 @@
-file = open('hello.txt', 'at')
+file = open('hello.txt', 'at', encoding='UTF-8')
 
 file.write('Hello.\n')
 file.write('Nice to meet you.\n')

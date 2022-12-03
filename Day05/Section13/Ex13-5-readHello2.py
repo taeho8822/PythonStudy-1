@@ -1,4 +1,4 @@
-file = open('hello.txt', 'rt')
+file = open('hello.txt', 'rt', encoding='UTF-8')
 
 while True:
     str = file.read(5)
