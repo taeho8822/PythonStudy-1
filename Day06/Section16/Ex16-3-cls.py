@@ -38,6 +38,10 @@ print('현재 가방: {}개'.format(Bag.remain_bag()))
 
 Bag.slogan()
 
+print(dir(bag1))
+print(len(bag1))
+
+object
 
 
 
