@@ -1,5 +1,7 @@
 '''
 Ex16-5-inheritance2.py
+
+죽음의 다이아몬드
 '''
 class A:
     def greeting(self):
